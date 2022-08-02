@@ -1,7 +1,12 @@
+.color-palete {
+  display: table-row;
+}
+
+
 .color {
   margin-top: 2%;
  
-    display: inline-block;
+    display: table-cell;
     width: 40px;
   border: 1px solid black;
   height: 30px;
@@ -11,6 +16,8 @@
 #pixel-board {border: 1px solid black;
     max-height: 40%;
     display: table;
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
 .row { display: table-row;}
@@ -25,5 +32,6 @@
     width: 40px;
     max-width: 20%;
     display: table-cell;
+    background-color: white;
     
 }
