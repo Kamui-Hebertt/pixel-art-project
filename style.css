@@ -1,22 +1,29 @@
-.color{
-    margin-top: 2%;
-    margin-left: 1%;
-    display:inline-block;
+.color {
+  margin-top: 2%;
+ 
+    display: inline-block;
     width: 40px;
-    border: 1px solid black;
-    height: 30px;
-    
-    
+  border: 1px solid black;
+  height: 30px;
+
 }
 
-#pixel-board{
-    border: 1px solid black;
-    max-height: 50%;
+#pixel-board {border: 1px solid black;
+    max-height: 40%;
+    display: table;
 }
 
-.pixel{
+.row { display: table-row;}
+.row2 { display: table-row;}
+.row3 {display: table-row;}
+.row4 {display: table-row;}
+.row5 { display: table-row;}
+
+.pixel {
     border: 1px solid black;
-    height: 50px;
+    height: 40px;
+    width: 40px;
     max-width: 20%;
-    mar
+    display: table-cell;
+    
 }
