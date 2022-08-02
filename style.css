@@ -1,0 +1,22 @@
+.color{
+    margin-top: 2%;
+    margin-left: 1%;
+    display:inline-block;
+    width: 40px;
+    border: 1px solid black;
+    height: 30px;
+    
+    
+}
+
+#pixel-board{
+    border: 1px solid black;
+    max-height: 50%;
+}
+
+.pixel{
+    border: 1px solid black;
+    height: 50px;
+    max-width: 20%;
+    mar
+}
