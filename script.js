@@ -1,5 +1,5 @@
 function firstColorB() {
-  const firstPalette = document.querySelectorAll('.color')[0];
+  const firstPalette = document.querySelectorAll('.color')[0];// a primeira paleta (preta) sempre vai iniciar com selected
   firstPalette.classList.add('selected');
 };
 
@@ -7,14 +7,14 @@ window.onload = firstColorB ();
 
 const colors = document.querySelectorAll('.color');
 
-function removeClass(){
+function removeClass() {
     for(let i = 0; i < colors.length; i+=1){
         colors[i].classList.remove('selected');//vai remover o selected
 
     }
 }
 
-function addClass (){
+function addClass () {
     for(let i = 0; i < colors.length; i+=1){
         colors[i].addEventListener('click', function (event) {
             removeClass() //...............a função remover é chamada aqui, pois se colors[i] tiver selected, ela vai remover
@@ -25,4 +25,33 @@ function addClass (){
     }
 }
 addClass();
+
+const allPixel = document.querySelectorAll('.pixel');
+
+
+const selectedOne = document.querySelector('.selected');
+            console.log(selectedOne);
+            
+
+
+function setColor(){
+    for (let i = 0; i < allPixel.length; i+=1){
+
+        allPixel[i].addEventListener('click', (event)=>{
+            const selectedOne = document.querySelector('.selected');
+            event.target.style.backgroundColor = getComputedStyle( selectedOne, null).backgroundColor;
+            
+        })
+    }
+
+
+}
+
+setColor();
+
+
+ 
+
+
+
 
