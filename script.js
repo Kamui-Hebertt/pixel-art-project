@@ -50,6 +50,18 @@ function setColor(){
 setColor();
 
 
+let clearBtn = document.getElementById('clear-board');
+console.log(clearBtn);
+
+function clearPixels () {
+   for(let i = 0; i < allPixel.length; i+=1){
+allPixel[i].style.backgroundColor = "white"
+} }
+
+clearBtn.addEventListener('click', clearPixels);
+
+
+
  
 
 

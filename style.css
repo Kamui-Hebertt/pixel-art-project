@@ -61,3 +61,13 @@ body {background-color: pink;}
     background-color: white;
     
 }
+
+#clear-board{
+left: 38rem;
+bottom: 28rem;
+position: relative;
+margin-top: 180px;
+background-color: pink;
+border-radius: 7px;
+font-style: italic;
+}
