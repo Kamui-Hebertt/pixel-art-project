@@ -1,23 +1,49 @@
-.color-palete {
-  display: table-row;
-}
+h1{ text-align: center;}
 
+body {background-color: pink;}
 
-.color {
-  margin-top: 2%;
- 
-    display: table-cell;
-    width: 40px;
-  border: 1px solid black;
-  height: 30px;
+  li {
+    border: 1px solid black;
+    display: inline-block;
+    margin: 1px;
+    width: 30px;
+    height: 30px;
+    left: 32rem;
+    top: 3rem;
+    position: relative;
+    
+  }
+  li:nth-child(1) {
 
-}
+    
+    background-color: black;
+  }
+
+  li:nth-child(2) {
+
+    
+    background-color: purple;
+  }
+
+  li:nth-child(3) {
+
+    
+    background-color: violet;
+    
+  }
+
+  li:nth-child(4) {
+
+    
+    background-color: blue;
+  } 
 
 #pixel-board {border: 1px solid black;
     max-height: 40%;
     display: table;
-    margin-left: 50px;
-    margin-top: 20px;
+    margin-left: 33rem;
+    margin-top: 8rem;
+
 }
 
 .row { display: table-row;}
