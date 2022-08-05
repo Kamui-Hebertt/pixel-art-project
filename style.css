@@ -67,11 +67,30 @@ body {background-image: linear-gradient(to right,rgb(221, 168, 204),rgb(223, 110
 }
 
 #clear-board{
-left: 38rem;
-bottom: 28rem;
+left: 46rem;
+bottom: 65vh;
 position: relative;
 margin-top: 180px;
 background-color: rgb(238, 143, 187);
 border-radius: 7px;
 font-style: italic;
+}
+
+#board-size {
+  border-radius: 7px;
+  position: relative;
+  left: 30%;
+  bottom: 435px;
+  
+}
+
+#generate-board {
+  position: relative;
+  left: 49%;
+  bottom: 435px;
+  border-radius: 7px;
+  background-color: rgb(238, 143, 187);
+  color: black;
+  
+
 }

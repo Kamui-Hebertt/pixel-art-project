@@ -6,7 +6,9 @@ function firstColorB() {
 window.onload = firstColorB (); // chama a função depois que recarrega a página.
 
 
-function randomColor(){
+
+
+function randomColor(){ //// gerador de color aleatoria para o rgb(combinações)
     const r = Math.random() * 255;
     const g = Math.random() * 255;
     const b = Math.random() * 255;
@@ -16,11 +18,11 @@ function randomColor(){
 
 
 
-const colors = document.querySelectorAll('.color');
+const colors = document.querySelectorAll('.color'); 
 
 function randomPalette (){
     for(let i = 1; i < colors.length; i+=1){
-         colors[i].style.backgroundColor = randomColor();
+         colors[i].style.backgroundColor = randomColor(); // a função de gerar a cor é aplicada nas cores com exeção da preta.
          
     }
 }
@@ -47,9 +49,14 @@ addClass();
 
 const allPixel = document.querySelectorAll('.pixel');
 
+const boardSize = document.querySelector('#board-size');
+console.log(boardSize);
+
+
+
 
 const selectedOne = document.querySelector('.selected');
-            console.log(selectedOne);
+            //console.log(selectedOne);
             
 
 
@@ -70,7 +77,7 @@ setColor();
 
 
 let clearBtn = document.getElementById('clear-board');
-console.log(clearBtn);
+//console.log(clearBtn);
 
 function clearPixels () {
    for(let i = 0; i < allPixel.length; i+=1){
