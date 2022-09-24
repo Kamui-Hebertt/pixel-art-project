@@ -2,7 +2,7 @@ h1{ text-align: center;
 font-family: 'Poppins';
 color:purple}
 
-body {background-image: linear-gradient(to right,rgb(221, 168, 204),rgb(223, 110, 195),rgb(41, 196, 188));
+body {background-image:url("pic.jpg");
 }
 
   li {
@@ -52,9 +52,10 @@ body {background-image: linear-gradient(to right,rgb(221, 168, 204),rgb(223, 110
 
 .row { display: table-row;}
 .row2 { display: table-row;}
-.row3 {display: table-row;}
-.row4 {display: table-row;}
+.row3 { display: table-row;}
+.row4 { display: table-row;}
 .row5 { display: table-row;}
+
 
 .pixel {
     border: 1px solid black;
@@ -63,10 +64,9 @@ body {background-image: linear-gradient(to right,rgb(221, 168, 204),rgb(223, 110
     max-width: 20%;
     display: table-cell;
     background-color: white;
-    
 }
 
-#clear-board{
+#clear-board {
 left: 46rem;
 bottom: 65vh;
 position: relative;
@@ -93,4 +93,9 @@ font-style: italic;
   color: black;
   
 
+}
+
+.selected {
+  top: 1cm;
+  
 }
