@@ -67,10 +67,10 @@ body {background-image:url("pic.jpg");
 }
 
 #clear-board {
-left: 46rem;
+left: 45rem;
 bottom: 65vh;
 position: relative;
-margin-top: 180px;
+margin-top: 160px;
 background-color: rgb(238, 143, 187);
 border-radius: 7px;
 font-style: italic;
@@ -79,8 +79,8 @@ font-style: italic;
 #board-size {
   border-radius: 7px;
   position: relative;
-  left: 30%;
-  bottom: 435px;
+  margin-left: 34vw;
+  bottom: 425px;
   
 }
 

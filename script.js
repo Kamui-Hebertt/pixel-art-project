@@ -3,7 +3,7 @@ function firstColorB() {
   firstPalette.classList.add('selected');
 }
 
-
+const allPixel = document.querySelectorAll('.pixel');
 
 function randomColor() { /// / gerador de color aleatoria para o rgb(combinações)
   const r = Math.random() * 255;
@@ -47,8 +47,12 @@ console.log(pixelBoard);
 const generateBtn = document.querySelector('#generate-board');
 
 
+const row1 = document.querySelectorAll('.row');
 
-const allPixel = document.querySelectorAll('.pixel');
+
+
+
+
 
 const allPixelS = document.querySelector('.pixel').style.width;
 console.log(allPixelS);
